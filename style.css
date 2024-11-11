@@ -9,12 +9,12 @@ body{
     flex-direction: row;
     background: linear-gradient(rgb(3, 146, 249) , white);
     width: 100%;
-    height: 40px;
+    height: 100px;
     position: relative;
 }
 .title img{
-    width: 25px;
-    height: 25px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     margin: 5px;
 }
@@ -25,39 +25,42 @@ body{
     justify-content: flex-start;
     position: relative;
     top: 2px;
-    font-size: 10px;
+    font-size: 30px;
 }
 .bar{
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 5px;
-    left: 260px;
-    width: 280px;
-    height: 25px;
+    top: 25px;
+    left: 510px;
+    width: 800px;
+    height: 50px;
     background-color: rgb(232, 253, 254);
     margin: 3px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
  .bar a{
     display: flex;
-    margin: 5px;
-    font-size: 10px;
+    margin: 15px;
+    font-size: 30px;
     text-decoration: none;
     color: hsl(249, 95%, 9%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all  step-end;
 }
  .bar a:hover{
-    font-size: 15px;
+    font-size: 35px;
     font-weight: bold;
 
 }
 
  span{
-    font-size: 15px;
+    font-size: 50px;
     font-weight: bold;
 }
 * {
@@ -73,9 +76,11 @@ body{
 
 .slider {
     position: relative;
-    height: 160px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
+    background-size: cover;
+    background-position: center;
 }
 
 .slides {
@@ -87,7 +92,7 @@ body{
 
 .slide {
     min-width: 100%;
-    height: 100%;
+    height: 500px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -96,7 +101,7 @@ body{
 /* Text Overlay */
 .text-overlay {
     position: absolute;
-    bottom: 20px; /* Position text from the bottom */
+    bottom: 150px; /* Position text from the bottom */
     left: 50%;
     transform: translateX(-50%);
     color: #fff; /* White text */
@@ -107,12 +112,12 @@ body{
 }
 
 .text-overlay h1 {
-    font-size: 2rem;
+    font-size: 40px;
     margin: 0;
 }
 
 .text-overlay p {
-    font-size: 1.2rem;
+    font-size: 80px;
     margin: 5px 0 0;
 }
 
@@ -140,9 +145,8 @@ body{
     opacity: 1;
 }
 .tag{
-    font-size: 25px;
+    font-size: 100px;
     font-weight: bold;
-    background-color: rgba(0, 200, 255, 0.314);
     color: rgb(5, 2, 56);
     height: 30px;
     width: 100%;
@@ -153,42 +157,43 @@ body{
     animation-name: tag;
     animation-duration: 5s;
     animation-iteration-count: infinite;
+    margin-top: 10px;
 }
 @keyframes tag{
     0%{
-        font-size: 25px;
+        font-size: 35px;
         color: rgb(34, 0, 72);
     }
     50%{
-        font-size: 20px;
+        font-size: 50px;
         color: rgb(1, 1, 145);
     }
     100%{
-        font-size: 25px;
+        font-size: 65px;
         color: rgb(0, 0, 191);
     }
 }
 .book{
     display: flex;
     flex-direction: row;
-    font-size: 15px;
+    font-size: 35px;
     align-items: center;
     justify-content: center;
     margin: 0px;
     width: 100%;
-    height: 50px;
+    height: 100px;
    background: linear-gradient(white , rgba(158, 227, 250, 0.869));
     
 
 }
 #mail{
-    width: 200px;
-    font-size: 10px;
+    width: 550px;
+    font-size: 30px;
     background-color: rgba(83, 255, 249, 0.811);
     border: none;
     border: 1px solid rgba(11, 0, 216, 0.401);
     border-radius: 15px;
-    height: 17px;
+    height: 50px;
 }
 #mail::placeholder{
     color: rgba(1, 10, 77, 0.512);
@@ -197,25 +202,27 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 25px;
 }
 .book a{
-    width: 60px;
-    height: 15px;
+    width: 130px;
+    height: 40px;
     background-color: rgb(7, 2, 58);
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(0, 255, 251);
     transition: 1s all step-start;
-    border-radius: 10px;
+    border-radius: 25px;
     font-weight: bold;
     border: 1px rgb(0, 238, 255) solid;
-    font-size: 10px;
+    font-size: 25px;
     text-decoration: none;
+    margin-left: 10px;
 
 }
 .book a:hover{
- width: 65px;
+ width: 150px;
  background-color: rgb(0, 251, 255);
  color: rgba(1, 8, 77, 0.911);
  font-weight: bolder;
@@ -227,31 +234,32 @@ body{
 }
 .ladakh{
     background-image: url("https://media.istockphoto.com/id/1218830644/photo/beautiful-lake.jpg?s=612x612&w=0&k=20&c=r5or5KmtrZE5P93cDPG2FzxWQxhZA0qeTInoXJ7qXxA=");
-    height: 150px;
-    width: 160px;
+    height: 300px;
+    width: 320px;
     background-position: center;
     background-size: cover;
-    font-size: 22px;
+    font-size: 40px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(164, 250, 250);
     cursor:pointer;
     transition: all 1s ease;
     border-radius: 10px;
+    margin-left: 50px;
 
 }
 .ladakh:hover{
-    width:180px ;
-    height: 170px;
+    width: 400px ;
+    height: 350px;
 }
 .mumbai{
     background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/88/07/e6/caption.jpg?w=500&h=400&s=1");
-    height: 150px;
-    width: 160px;
+    height: 300px;
+    width: 320px;
     background-position: center;
     background-size: cover;
-    margin: 10px;
-    font-size: 22px;
+    margin-left: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: yellow;
@@ -260,17 +268,17 @@ body{
     border-radius: 10px;
 }
 .mumbai:hover{
-    width: 180px;
-    height: 170px;
+    width: 400px;
+    height: 350px;
 }
 .kerala{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStbqRmR1WALm5MvT0ZenZ4JY7nb0s_yH_Mig&s");
-    height: 150px;
-    width: 160px;
+    height: 300px;
+    width: 320px;
     background-position: center;
     background-size: cover;
-    margin: 10px;
-    font-size: 21px;
+    margin-left: 50px;
+    font-size: 40px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(2, 44, 1);
@@ -279,8 +287,8 @@ body{
     border-radius: 10px;
 }
 .kerala:hover{
-    width: 180px;
-    height: 170px;
+    width: 400px;
+    height: 350px;
 }
 .tour{
     display: flex;
@@ -288,31 +296,30 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 200px;
+    height: 400px;
     background-image: url("https://img.freepik.com/free-photo/pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.jpg");
     background-position: center;
     background-size: cover;
     margin: 5px;
-
 }
 .description-area h3 {
-    font-size: 1.2rem;
+    font-size: 30px;
     margin-bottom: 5px;
 }
 
 .description-area p {
-    font-size: 1rem;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .description-area strong {
-    font-size: 1rem;
+    font-size: 20px;
     color: #007BFF;
     position: absolute;
     
 }
 .packages h2{
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     text-decoration: underline;
     margin: 10px;
@@ -326,12 +333,12 @@ body{
     background-image: url("https://thumbs.dreamstime.com/b/chariot-festival-card-hindu-god-temple-indian-cultural-style-statue-beautiful-temple-abstract-background-illustration-324652146.jpg");
     background-size: cover;
     background-position: center;
-    height: 150px;
-    width: 160px;
-    margin: 10px;
+    height: 300px;
+    width: 320px;
+    margin: 50px;
     border-radius: 10px;
     color:  yellow;
-    font-size: 18px;
+    font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     padding: 5px;
@@ -339,18 +346,18 @@ body{
     cursor: pointer;
 }
 .cultural:hover{
-    width: 170px;
-    height: 160px;
+    width: 400px;
+    height: 200px;
 }
 .adventure{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZT_wk7m1Y6aXnAxzU8_xmS-24k1dffsoDQ&s");
     background-size: cover;
     background-position: center;
-    height: 150px;
-    width: 160px;
-    margin: 10px;
+    height: 300px;
+    width: 320px;
+    margin: 50px;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(139, 239, 252);
     font-weight: bold;
@@ -359,19 +366,19 @@ body{
     cursor: pointer;
 }
 .adventure:hover{
-    width: 170px;
-    height: 160px;
+    width: 300px;
+    height: 380px;
 }
 .couple{
     background-image: url("https://img.lovepik.com/photo/40171/6132.jpg_wh860.jpg");
     background-size: cover;
     background-position: center;
-    height: 150px;
-    width: 160px;
-    margin:10px;
+    height: 300px;
+    width: 320px;
+    margin:50px;
     border-radius: 15px;
     color: red;
-    font-size: 16px;
+    font-size: 35px;
     padding: 9px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -379,8 +386,8 @@ body{
     cursor: pointer;
 }
 .couple:hover{
-    width: 170px;
-    height: 160px;
+    width: 340px;
+    height: 350px;
 }
 .pack{
     display: flex;
@@ -391,27 +398,28 @@ body{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 175px;
+    height: 400px;
     margin-top: 10px;
 }
 .specials h2{
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     background-color: #8fc5ff;
     color: #5b0202;
     width: 100%;
-    height: 25px;
+    height: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* Description Area */
 #descriptionArea {
     display: none;
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 50px;
+    padding: 50px;
     border: 2px solid #ddd;
     border-radius: 8px;
-    background-color: #37ffcd8e;
+    background-color: #b4ababa4;
     transition: opacity 0.3s ease-in-out;
+    font-size: 35px;
 }
 
 /* Title and paragraph styles within the description area */
@@ -426,52 +434,52 @@ body{
 }
 
 #descriptionArea p strong {
-    color: #00dbf37e;
+    color: #00191c7e;
 }
 .about h2{
     text-align: center;
     position: relative;
     top: 10px;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: blue;
     background: lightblue;
-    height: 30px;
+    height: 50px;
     
 }
 .para{
     background-image: url("https://img.freepik.com/free-photo/pouch-map-toy-airplane-blue-background-with-space-writing-text_23-2147958180.jpg");
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 600px;
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 13px;
+    font-size: 25px;
     margin-top: 10px;
     color: rgb(2, 2, 76);
 }
 .contact h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     top: 10px;
     margin: 10px;
     background-color: lightyellow;
     color: rgb(161, 3, 3);
     width: 100%;
-    height: 30px;
+    height: 50px;
 }
 .main{
     background-image: url("https://img.freepik.com/free-photo/composition-small-airplanes-bus-passport-map_23-2148169874.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 200px;
+    height: 400px;
     text-align: center;
     
     
 }
 .main h3{
- font-size: 15px;
+ font-size: 40px;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  color: red;
  margin-bottom: 20px;
@@ -484,13 +492,13 @@ body{
     margin-bottom: 10px;
 }
 .insta img{
-    width: 20px;
-    height:20px;
+    width: 40px;
+    height:40px;
     margin-right: 10px;
 }
  .main a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: orange;
@@ -505,74 +513,106 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .face img{
-    width: 20px;
-    height:20px;
-    margin-right: 10px;
+    width: 50px;
+    height:50px;
+    margin-right: 15px;
 }
 .tweet {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .tweet img{
-    width: 20px;
-    height:20px;
+    width: 40px;
+    height:40px;
     margin-right: 5px;
     position: relative;
     right: 12px;
 }
 .whats img{
-    width: 20px;
-    height:20px;
-    margin-right: 10px;
+    width: 40px;
+    height:40px;
+    margin-right: 15px;
 }
 .whats {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 main h5{
     color: red;
-    font-size: 10px;
+    font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     width: 100%;
-    height: 20px;
+    height: 80px;
     background-color: lightyellow;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* General CSS */
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(rgb(62, 199, 245), white);
+}
+
+/* Responsive adjustments for mobile */
 @media (max-width: 600px) {
-    /* Mobile screen adjustments */
     .head {
         flex-direction: column;
+        align-items: center;
         height: auto;
+        padding: 10px;
     }
-    
+
+    .title {
+        font-size: 24px;
+    }
+
+    .title img {
+        width: 50px;
+        height: 50px;
+    }
+
     .bar {
+        flex-direction: column;
         width: 100%;
         left: 0;
-        margin: 0;
+        margin: 10px 0;
+        padding: 10px;
+        background-color: rgb(232, 253, 254);
+        border-radius: 10px;
     }
-    
+
     .bar a {
-        font-size: 12px;
+        font-size: 16px;
         margin: 5px 0;
+        padding: 8px;
     }
 
     .slider {
-        height: 120px;
+        height: 200px;
+    }
+
+    .text-overlay {
+        bottom: 10px;
+        padding: 5px;
+        width: 90%;
+        font-size: 14px;
     }
 
     .text-overlay h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .text-overlay p {
@@ -580,21 +620,128 @@ main h5{
     }
 
     .tag {
-        font-size: 20px;
+        font-size: 24px;
+        padding: 5px;
+        margin: 10px;
     }
 
     .book {
         flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding: 10px;
         height: auto;
     }
 
-    .book label {
-        font-size: 12px;
+    #mail {
+        width: 80%;
+        font-size: 18px;
+        height: 40px;
     }
 
-    .ladakh, .mumbai, .kerala {
-        height: 120px;
-        width: 130px;
+    .book a {
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .tour {
+        flex-direction: column;
+        height: auto;
+        background-size: cover;
+        padding: 10px;
+    }
+
+    .ladakh, .mumbai, .kerala, .cultural, .adventure, .couple {
+        height: 150px;
+        width: 100%;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .packages h2,
+    .specials h2 {
+        font-size: 24px;
+        padding: 5px;
+    }
+
+    #descriptionArea {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .about h2,
+    .contact h2 {
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .para {
+        height: auto;
         font-size: 18px;
+        padding: 10px;
+    }
+
+    .main {
+        background-size: cover;
+        padding: 20px;
+        height: auto;
+    }
+
+    .main h3 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .insta img,
+    .face img,
+    .tweet img,
+    .whats img {
+        width: 30px;
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .insta, .face, .tweet, .whats {
+        margin: 5px 0;
+    }
+
+    .main h5 {
+        font-size: 18px;
+        padding: 5px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+
+    .bar {
+        display: none; /* Hide the menu by default on mobile */
+        flex-direction: column;
+        width: 100%;
+        left: 0;
+        padding: 10px;
+        background-color: rgb(232, 253, 254);
+        border-radius: 10px;
+    }
+
+    .bar.show {
+        display: flex; /* Show the menu when toggled */
+    }
+
+    .bar a {
+        font-size: 16px;
+        margin: 5px 0;
+        padding: 8px;
     }
 }
+.menu-toggle {
+    display: none; /* Hidden by default */
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+}
+
+   

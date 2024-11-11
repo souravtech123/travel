@@ -165,3 +165,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+function toggleMenu() {
+    const menu = document.querySelector('.bar');
+    menu.classList.toggle('show');
+}
